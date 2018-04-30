@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fad206c-061b-404b-8f99-7e708fb12bd3" name="Default" comment="" />
+    <list default="true" id="3fad206c-061b-404b-8f99-7e708fb12bd3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/calcpeso.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salarioprofessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convdolar.py" beforeDir="false" afterPath="$PROJECT_DIR$/convdolar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/convdolartest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/convdolartest.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +20,28 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="calcpeso.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calcpeso.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -30,21 +50,25 @@
         <option value="$PROJECT_DIR$/test/horastrabtest.py" />
         <option value="$PROJECT_DIR$/convdolar.py" />
         <option value="$PROJECT_DIR$/test/convdolartest.py" />
+        <option value="$PROJECT_DIR$/salarioprofessor.py" />
+        <option value="$PROJECT_DIR$/calcpeso.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="19" />
-    <option name="y" value="173" />
+    <option name="x" value="1" />
+    <option name="y" value="155" />
     <option name="width" value="1296" />
     <option name="height" value="576" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -56,6 +80,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -74,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for convdolartest.MyTestCase.test_conversor">
+  <component name="RunManager" selected="Python.salarioprofessor">
     <configuration name="convdolar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ALPC2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,6 +113,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convdolar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="salarioprofessor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ALPC2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/salarioprofessor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +297,7 @@
       <option name="_new_target" value="&quot;convdolartest.MyTestCase.test_conversor&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for horastrabtest.MyTestCase.test_valorespositivos" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for convdolartest.MyTestCase.test_conversor2" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="ALPC2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,7 +308,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;horastrabtest.MyTestCase.test_valorespositivos&quot;" />
+      <option name="_new_target" value="&quot;convdolartest.MyTestCase.test_conversor2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Nosetests in convdolartest.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
@@ -282,34 +325,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/convdolartest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Nosetests in horastrabtest.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="ALPC2018" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/horastrabtest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.Nosetests in horastrabtest.py" />
-      <item itemvalue="Python tests.Nosetests for horastrabtest.MyTestCase.test_valorespositivos" />
       <item itemvalue="Python.convdolar" />
       <item itemvalue="Python tests.Nosetests for convdolartest.MyTestCase.test_conversor" />
       <item itemvalue="Python tests.Nosetests in convdolartest.py" />
+      <item itemvalue="Python tests.Nosetests for convdolartest.MyTestCase.test_conversor2" />
+      <item itemvalue="Python.salarioprofessor" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Nosetests for convdolartest.MyTestCase.test_conversor" />
+        <item itemvalue="Python.salarioprofessor" />
+        <item itemvalue="Python tests.Nosetests for convdolartest.MyTestCase.test_conversor2" />
         <item itemvalue="Python tests.Nosetests in convdolartest.py" />
         <item itemvalue="Python.convdolar" />
-        <item itemvalue="Python tests.Nosetests in horastrabtest.py" />
-        <item itemvalue="Python tests.Nosetests for horastrabtest.MyTestCase.test_valorespositivos" />
+        <item itemvalue="Python tests.Nosetests for convdolartest.MyTestCase.test_conversor" />
       </list>
     </recent_temporary>
   </component>
@@ -317,15 +346,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_for_convdolartest_MyTestCase_test_conversor - 2018.04.25 at 21h 54m 48s.xml">
-      <configuration name="Nosetests for convdolartest.MyTestCase.test_conversor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_convdolartest_MyTestCase_test_conversor - 2018.04.25 at 21h 55m 04s.xml">
-      <configuration name="Nosetests for convdolartest.MyTestCase.test_conversor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_convdolartest_MyTestCase_test_conversor - 2018.04.25 at 21h 55m 31s.xml">
-      <configuration name="Nosetests for convdolartest.MyTestCase.test_conversor" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_in_convdolartest_py - 2018.04.25 at 21h 56m 27s.xml">
       <configuration name="Nosetests in convdolartest.py" configurationId="tests" />
     </history-entry>
@@ -347,14 +367,24 @@
     <history-entry file="Nosetests_for_convdolartest_MyTestCase_test_conversor - 2018.04.25 at 22h 11m 01s.xml">
       <configuration name="Nosetests for convdolartest.MyTestCase.test_conversor" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_for_convdolartest_MyTestCase_test_conversor - 2018.04.26 at 21h 11m 20s.xml">
+      <configuration name="Nosetests for convdolartest.MyTestCase.test_conversor" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_convdolartest_py - 2018.04.26 at 21h 19m 25s.xml">
+      <configuration name="Nosetests in convdolartest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_convdolartest_MyTestCase_test_conversor2 - 2018.04.26 at 21h 20m 31s.xml">
+      <configuration name="Nosetests for convdolartest.MyTestCase.test_conversor2" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16294643" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115384616" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3286385" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3364632" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38853502" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -393,7 +423,7 @@
     <entry file="file://$PROJECT_DIR$/test/convdolartest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -402,8 +432,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/convdolar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="210">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salarioprofessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calcpeso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

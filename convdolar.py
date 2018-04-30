@@ -1,9 +1,10 @@
+#def nomefuncao(parametros):
 def conversor(valdolar, valcotac):
     #processamento
     valreal = valdolar * valcotac
     return valreal
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     #entradas
     print("Digite o valor em dolar")
     # float significa numero decimal
