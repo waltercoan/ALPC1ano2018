@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fad206c-061b-404b-8f99-7e708fb12bd3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/calcnovosalario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reajustepreco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -18,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="calcnovosalario.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calcnovosalario.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calcnovosalario.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="280">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reajustepreco.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reajustepreco.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -51,13 +60,15 @@
         <option value="$PROJECT_DIR$/calcpeso.py" />
         <option value="$PROJECT_DIR$/reajuste.py" />
         <option value="$PROJECT_DIR$/calcnovosalario.py" />
+        <option value="$PROJECT_DIR$/reajustepreco.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
+    <option name="x" value="6" />
+    <option name="y" value="180" />
     <option name="width" value="1296" />
-    <option name="height" value="735" />
+    <option name="height" value="651" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -408,6 +419,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/calcnovosalario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calcpeso.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -482,8 +500,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calcnovosalario.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="280">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reajustepreco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
