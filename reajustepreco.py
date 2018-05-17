@@ -12,5 +12,5 @@ else:
     else:
         if valvendmedio >= 1600 or precoatual >= 80:
             reajuste = precoatual - ((precoatual * 25)/100)
-            
+
 print("O novo preco e",  reajuste)
