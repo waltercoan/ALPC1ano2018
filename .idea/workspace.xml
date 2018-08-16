@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fad206c-061b-404b-8f99-7e708fb12bd3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/exerprovarepeticao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ALPC2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ALPC2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conjuntos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,12 +16,21 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exerprovarepeticao.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exerprovarepeticao.py">
+    <leaf>
+      <file leaf-file-name="conjuntos.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conjuntos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="-378">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listadecompras.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listadecompras.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -86,13 +92,19 @@
         <option value="$PROJECT_DIR$/testefor.py" />
         <option value="$PROJECT_DIR$/controlacreche.py" />
         <option value="$PROJECT_DIR$/exerprovarepeticao.py" />
+        <option value="$PROJECT_DIR$/Prova1Repeticao.py" />
+        <option value="$PROJECT_DIR$/testelista.py" />
+        <option value="$PROJECT_DIR$/intecalalistas.py" />
+        <option value="$PROJECT_DIR$/listadecompras.py" />
+        <option value="$PROJECT_DIR$/conjuntos.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="152" />
-    <option name="width" value="1653" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="28" />
+    <option name="y" value="152" />
+    <option name="width" value="1877" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -102,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,6 +125,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -133,7 +145,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.controlacreche">
+  <component name="RunManager" selected="Python.conjuntos">
+    <configuration name="conjuntos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ALPC2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conjuntos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="controlacreche" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ALPC2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,61 +182,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="repeticaoparafaca01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ALPC2018" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/videos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/videos/repeticaoparafaca01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="repeticaoparafaca02" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ALPC2018" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/videos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/videos/repeticaoparafaca02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="repeticaoparafaca06" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ALPC2018" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/videos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/videos/repeticaoparafaca06.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="testefor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="intecalalistas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ALPC2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,7 +194,43 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testefor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intecalalistas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="listadecompras" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ALPC2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listadecompras.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="testelista" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ALPC2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testelista.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,19 +269,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Python.repeticaoparafaca01" />
-      <item itemvalue="Python.repeticaoparafaca02" />
-      <item itemvalue="Python.repeticaoparafaca06" />
-      <item itemvalue="Python.testefor" />
       <item itemvalue="Python.controlacreche" />
+      <item itemvalue="Python.testelista" />
+      <item itemvalue="Python.intecalalistas" />
+      <item itemvalue="Python.listadecompras" />
+      <item itemvalue="Python.conjuntos" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.conjuntos" />
+        <item itemvalue="Python.listadecompras" />
+        <item itemvalue="Python.intecalalistas" />
+        <item itemvalue="Python.testelista" />
         <item itemvalue="Python.controlacreche" />
-        <item itemvalue="Python.testefor" />
-        <item itemvalue="Python.repeticaoparafaca06" />
-        <item itemvalue="Python.repeticaoparafaca02" />
-        <item itemvalue="Python.repeticaoparafaca01" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +317,56 @@
       <option name="project" value="LOCAL" />
       <updated>1530149504993</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="04/07 - correção exercício blocos de repetição">
+      <created>1530754057073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530754057073</updated>
+    </task>
+    <task id="LOCAL-00005" summary="05/07 - correção exercício blocos de repetição">
+      <created>1530837877523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530837877523</updated>
+    </task>
+    <task id="LOCAL-00006" summary="26/07 - correção da prova de sistemas de informação">
+      <created>1532652917534</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532652917534</updated>
+    </task>
+    <task id="LOCAL-00007" summary="01/08 - Introdução ao conceito de listas">
+      <created>1533172268058</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533172268058</updated>
+    </task>
+    <task id="LOCAL-00008" summary="02/08 - exercicio intercalação&#10;      - lista de compras">
+      <created>1533259162382</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1533259162382</updated>
+    </task>
+    <task id="LOCAL-00009" summary="08/08/2018 - lista de compras parcial">
+      <created>1533778083229</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1533778083230</updated>
+    </task>
+    <task id="LOCAL-00010" summary="09/08/2018 - lista de compras completo">
+      <created>1534377153208</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1534377153208</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -341,18 +402,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="0" width="1322" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18883792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16276042" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32899627" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3286385" />
-      <window_info anchor="right" x="866" y="197" width="495" height="435" id="Run" order="3" weight="0.33333334" />
+      <window_info anchor="right" x="866" y="197" width="495" height="435" id="Run" order="3" visible="true" weight="0.2877604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4528044" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.38030097" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -372,49 +433,21 @@
     <MESSAGE value="28/05 - correção dos exercícios das listas" />
     <MESSAGE value="04/06 - correção exercícios para faça" />
     <MESSAGE value="27/06 - algoritmo do maior e menor número" />
-    <option name="LAST_COMMIT_MESSAGE" value="27/06 - algoritmo do maior e menor número" />
+    <MESSAGE value="04/07 - correção exercício blocos de repetição" />
+    <MESSAGE value="05/07 - correção exercício blocos de repetição" />
+    <MESSAGE value="26/07 - correção da prova de sistemas de informação" />
+    <MESSAGE value="01/08 - Introdução ao conceito de listas" />
+    <MESSAGE value="02/08 - exercicio intercalação&#10;      - lista de compras" />
+    <MESSAGE value="08/08/2018 - lista de compras parcial" />
+    <MESSAGE value="09/08/2018 - lista de compras completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="09/08/2018 - lista de compras completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/parimpar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parimpar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calcnovosalario.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reajustepreco.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calcnovosalario.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calcpeso.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -720,8 +753,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exerprovarepeticao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="1575">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prova1Repeticao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testelista.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intecalalistas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listadecompras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conjuntos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
