@@ -2,6 +2,8 @@ x = [0] * 10
 y = [0] * 10
 uniao = [0] * 20
 
+diff = [0] * 10
+
 print("Conjunto X")
 for i in range(10):
     print("Digite um numero")
@@ -34,4 +36,8 @@ for i in range(10):
         proxlivre = proxlivre  + 1
 print(uniao)
 
-
+print("Algoritmo diferenca")
+##a diferença entre X e Y (todos os elementos de
+# X que não existam em Y)
+for i in range(10):
+    print(x[i])
