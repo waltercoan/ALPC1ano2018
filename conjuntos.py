@@ -53,3 +53,29 @@ for i in range(10):
         diff[proxlivre] = x[i]
         proxlivre = proxlivre + 1
 print("Diferença ", diff)
+#a soma entre X e Y (soma de cada elemento
+# de X com o elemento de mesma posição em Y)
+soma = [0] * 10
+for i in range(10):
+    soma[i] = x[i] + y[i]
+print("Soma",  soma)
+#d.	produto entre X e Y (multiplicação
+# de cada elemento de X com o elemento de mesma posição em Y)
+prod = [0] * 10
+for i in range(10):
+    prod[i] = x[i] * y[i]
+print("Produto", prod)
+#a interseção entre X e Y (apenas os
+# elementos que aparecem nos dois vetores)
+inter = [0] * 10
+proxlivre = 0
+for i in range(10):
+    print(x[i])
+    for j in range(10):
+        print(y[j])
+        if x[i] == y[j]:
+            inter[proxlivre] = x[i]
+            proxlivre += 1
+            break
+print("Interseção", inter)
+

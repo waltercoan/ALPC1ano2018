@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fad206c-061b-404b-8f99-7e708fb12bd3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/conjuntos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provasomatoria.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conjuntos.py" beforeDir="false" afterPath="$PROJECT_DIR$/conjuntos.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,21 +18,12 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="conjuntos.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conjuntos.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="bolha.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bolha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-378">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listadecompras.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listadecompras.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="175">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -97,14 +90,16 @@
         <option value="$PROJECT_DIR$/intecalalistas.py" />
         <option value="$PROJECT_DIR$/listadecompras.py" />
         <option value="$PROJECT_DIR$/conjuntos.py" />
+        <option value="$PROJECT_DIR$/provasomatoria.py" />
+        <option value="$PROJECT_DIR$/bolha.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="28" />
-    <option name="y" value="152" />
-    <option name="width" value="1877" />
-    <option name="height" value="878" />
+    <option name="x" value="55" />
+    <option name="y" value="170" />
+    <option name="width" value="1808" />
+    <option name="height" value="853" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -114,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +121,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -145,7 +140,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.conjuntos">
+  <component name="RunManager" selected="Python.bolha">
+    <configuration name="bolha" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ALPC2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bolha.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="conjuntos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ALPC2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,24 +172,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conjuntos.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="controlacreche" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ALPC2018" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controlacreche.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,19 +264,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Python.controlacreche" />
       <item itemvalue="Python.testelista" />
       <item itemvalue="Python.intecalalistas" />
       <item itemvalue="Python.listadecompras" />
       <item itemvalue="Python.conjuntos" />
+      <item itemvalue="Python.bolha" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bolha" />
         <item itemvalue="Python.conjuntos" />
         <item itemvalue="Python.listadecompras" />
         <item itemvalue="Python.intecalalistas" />
         <item itemvalue="Python.testelista" />
-        <item itemvalue="Python.controlacreche" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +361,28 @@
       <option name="project" value="LOCAL" />
       <updated>1534377153208</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="15/08/2018 - algoritmo de operacoes sobre conjuntos">
+      <created>1534382533389</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534382533389</updated>
+    </task>
+    <task id="LOCAL-00012" summary="23/08 - inicio da aula">
+      <created>1535069321269</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1535069321269</updated>
+    </task>
+    <task id="LOCAL-00013" summary="23/08 - inicio da aulav2">
+      <created>1535070421308</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1535070421308</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -409,7 +425,7 @@
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32899627" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3286385" />
-      <window_info anchor="right" x="866" y="197" width="495" height="435" id="Run" order="3" visible="true" weight="0.2877604" />
+      <window_info anchor="right" x="866" y="197" width="495" height="435" id="Run" order="3" visible="true" weight="0.41927084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -440,7 +456,10 @@
     <MESSAGE value="02/08 - exercicio intercalação&#10;      - lista de compras" />
     <MESSAGE value="08/08/2018 - lista de compras parcial" />
     <MESSAGE value="09/08/2018 - lista de compras completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="09/08/2018 - lista de compras completo" />
+    <MESSAGE value="15/08/2018 - algoritmo de operacoes sobre conjuntos" />
+    <MESSAGE value="23/08 - inicio da aula" />
+    <MESSAGE value="23/08 - inicio da aulav2" />
+    <option name="LAST_COMMIT_MESSAGE" value="23/08 - inicio da aulav2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -448,20 +467,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/calcpeso.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reajuste.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calcpeso.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -782,14 +787,28 @@
     <entry file="file://$PROJECT_DIR$/listadecompras.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="43" />
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provasomatoria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conjuntos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="35">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bolha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
