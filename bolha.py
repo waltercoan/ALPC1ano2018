@@ -1,7 +1,8 @@
 import random
-numeros = [0] * 100000
-for i in range(100000):
-    numeros[i] = int(random.random() * 100000)
+numeros = [9,8,7,5,3]
+#numeros = [0] * 10
+#for i in range(10):
+#    numeros[i] = int(random.random() * 100000)
 
 for i in range(0,len(numeros)-1):
     #print(numeros[i])
@@ -11,5 +12,5 @@ for i in range(0,len(numeros)-1):
             aux = numeros[i]
             numeros[i] = numeros[j]
             numeros[j] = aux
-
+            #numeros[i],numeros[j] = numeros[j],numeros[i]
 print(numeros)
