@@ -22,14 +22,41 @@ for i in range(10):
 
 
 opcao = 0
-while(opcao != 4):
+while(opcao != 9):
     print("Menu")
     print("1 Efetuar deposito")
     print("2 Efetuar saque")
     print("3 Listar saldos ativos")
-    print("4 Sair")
+    print("4 Conta com maior saldo")
+    print("5 Conta com menor saldo")
+    print("9 Sair")
     print("Digite a opcao desejada")
     opcao = int(input())
+
+    if opcao == 4:
+        omaiorvalor = 0
+        contamaiorsaldo = 0
+        for i in range(10):
+            if saldos[i] > omaiorvalor:
+                omaiorvalor     = saldos[i]
+                contamaiorsaldo = contas[i]
+        print("A conta ", contamaiorsaldo)
+        print("O maior saldo e R$", omaiorvalor)
+
+    if opcao == 5:
+        #omenorsaldo = saldos[0]
+        omenorsaldo = 0
+        contamenorsaldo = 0
+        for i in range(10):
+            if i == 0:
+                omenorsaldo     = saldos[i]
+                contamenorsaldo = contas[i]
+            else:
+                if saldos[i] < omenorsaldo:
+                    omenorsaldo     = saldos[i]
+                    contamenorsaldo = contas[i]
+        print("A conta ", contamenorsaldo)
+        print("O menor saldo e R$", omenorsaldo)
 
     if opcao == 1:
         print("DEPOSITO")
