@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fad206c-061b-404b-8f99-7e708fb12bd3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/jogodavelha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testematriz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco.py" beforeDir="false" afterPath="$PROJECT_DIR$/banco.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="banco.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/banco.py">
+      <file leaf-file-name="testematriz.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testematriz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jogodavelha.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jogodavelha.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -42,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/horastrab.py" />
         <option value="$PROJECT_DIR$/test/horastrabtest.py" />
         <option value="$PROJECT_DIR$/convdolar.py" />
         <option value="$PROJECT_DIR$/test/convdolartest.py" />
@@ -92,14 +101,16 @@
         <option value="$PROJECT_DIR$/bolha.py" />
         <option value="$PROJECT_DIR$/listatempmes.py" />
         <option value="$PROJECT_DIR$/banco.py" />
+        <option value="$PROJECT_DIR$/testematriz.py" />
+        <option value="$PROJECT_DIR$/jogodavelha.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="32" />
-    <option name="y" value="193" />
-    <option name="width" value="1810" />
-    <option name="height" value="855" />
+    <option name="x" value="17" />
+    <option name="y" value="226" />
+    <option name="width" value="1890" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -140,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.banco">
+  <component name="RunManager" selected="Python.jogodavelha">
     <configuration name="banco" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ALPC2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,7 +188,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="conjuntos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="jogodavelha" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ALPC2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,25 +200,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conjuntos.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="listadecompras" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ALPC2018" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listadecompras.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jogodavelha.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,6 +219,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listatempmes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="testematriz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ALPC2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testematriz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,19 +275,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Python.listadecompras" />
-      <item itemvalue="Python.conjuntos" />
       <item itemvalue="Python.bolha" />
       <item itemvalue="Python.listatempmes" />
       <item itemvalue="Python.banco" />
+      <item itemvalue="Python.testematriz" />
+      <item itemvalue="Python.jogodavelha" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jogodavelha" />
+        <item itemvalue="Python.testematriz" />
         <item itemvalue="Python.banco" />
         <item itemvalue="Python.listatempmes" />
         <item itemvalue="Python.bolha" />
-        <item itemvalue="Python.conjuntos" />
-        <item itemvalue="Python.listadecompras" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536801136896</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="13/09 - exercicio banco completo">
+      <created>1536886873057</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1536886873057</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -441,16 +459,16 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18489583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13802083" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32899627" />
+      <window_info anchor="right" x="866" y="197" width="495" height="435" id="Run" order="3" weight="0.20052083" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3286385" />
-      <window_info anchor="right" x="866" y="197" width="495" height="435" id="Run" order="3" weight="0.32356772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32968536" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.29001367" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -483,7 +501,8 @@
     <MESSAGE value="29/08 - algoritmo da bolha" />
     <MESSAGE value="30/08 - algoritmo da bolha e exercício de lista de temperaturas por mês" />
     <MESSAGE value="12/09 - algoritmo do banco" />
-    <option name="LAST_COMMIT_MESSAGE" value="12/09 - algoritmo do banco" />
+    <MESSAGE value="13/09 - exercicio banco completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="13/09 - exercicio banco completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -491,14 +510,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/convdolartest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/horastrabtest.py" />
     <entry file="file://$PROJECT_DIR$/horastrab.py" />
     <entry file="file://$PROJECT_DIR$/test/convdolartest.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -831,8 +842,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/banco.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="35">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testematriz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jogodavelha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
