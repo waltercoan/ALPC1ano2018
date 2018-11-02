@@ -1,14 +1,16 @@
 import random
 
-memoria = [' '] * 100
+#memoria = [' '] * 100
+memoria = ['x', ' ', ' ', ' ', 'x', ' ', 'x', 'x', 'x', 'x', ' ', ' ', 'x', ' ', ' ', ' ', 'x', ' ', ' ', ' ', ' ', 'x', 'x', 'x', 'x', ' ', ' ', 'x', ' ', 'x', 'x', ' ', ' ', ' ', ' ', ' ', 'x', 'x', ' ', ' ', 'x', 'x', 'x', ' ', 'x', 'x', ' ', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', ' ', 'x', 'x', 'x', 'x', 'x', 'x', ' ', ' ', 'x', 'x', 'x', ' ', ' ', ' ', ' ', 'x', 'x', ' ', 'x', 'x', ' ', ' ', 'x', ' ', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', ' ', 'x', ' ', 'x', 'x', ' ', 'x', 'x', 'x', ' ', 'x']
 opcao = 0
 tamanho = 0
 letra = ''
-for i in range(100):
-    if(random.randint(0,11) >= 5):
-        memoria[i] = 'x'
-    else:
-        memoria[i] = ' '
+#for i in range(100):
+#    if(random.randint(0,11) >= 5):
+#        memoria[i] = 'x'
+#    else:
+#        memoria[i] = ' '
+#print(memoria)
 for i in range(0,20):
     print(memoria[i], end="|")
 print()
@@ -39,6 +41,18 @@ while(opcao != 4):
 
     if(opcao == 1):
         #Implemente aqui a lógica da primeira escolha
+        i=0
+        tamanhoburaco=0
+        while(i<100):
+            if memoria[i] == ' ':
+                print("Buraco ", i)
+                for f in range(i+1,100):
+                    if memoria[f]!= ' ':
+                        print("Fim", f)
+                        tamanhoburaco = f - i
+                        break
+
+            i = i + 1
         pass
     else:
         if (opcao == 2):
@@ -49,3 +63,18 @@ while(opcao != 4):
                 #Implemente aqui a lógica da pior escolha
                 pass
     # Aqui você deve imprimir todo o conteúdo da variável memória
+    for i in range(0, 20):
+        print(memoria[i], end="|")
+    print()
+    for i in range(20, 40):
+        print(memoria[i], end="|")
+    print()
+    for i in range(40, 60):
+        print(memoria[i], end="|")
+    print()
+    for i in range(60, 80):
+        print(memoria[i], end="|")
+    print()
+    for i in range(80, 100):
+        print(memoria[i], end="|")
+    print()
