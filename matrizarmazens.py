@@ -29,4 +29,40 @@ for lin in range(4):
 print("No armazem ", armazemmaior, \
       "tem a maior qtd de ", omaior)
 
+#c.	Qual o armazém possui menor estoque
 
+totalarm = 0
+omenor = 0
+oarmmenor = 0
+for lin in range(4):
+    for col in range(3):
+        totalarm += mat[lin][col]
+        #totalarm = totalarm + mat[lin][col]
+    if lin == 0:
+        omenor = totalarm
+        oarmmenor = lin + 1
+    else:
+        if omenor > totalarm:
+            omenor = totalarm
+            oarmmenor = lin + 1
+    totalarm = 0
+print("O Armazem ", oarmmenor)
+print("possui a menor quantidade de", omenor)
+
+#d.	Qual o custo total de cada produto
+
+somaqtd=0
+for col in range(3):
+    for lin in range(4):
+        somaqtd += mat[lin][col]
+    custototal = somaqtd * mat[4][col]
+    print("Produto ", col, " custo total ", custototal)
+    somaqtd = 0
+
+#e.	Qual o custo total de cada armazém
+somacustoarm=0
+for lin in range(4):
+    for col in range(3):
+        somacustoarm = somacustoarm + (mat[lin][col] * mat[4][col])
+    print("Armazem ", lin+1 , " custo total de ", somacustoarm)
+    somacustoarm = 0
