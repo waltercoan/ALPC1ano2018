@@ -1,10 +1,11 @@
-#escopo GLOBAL
+#global
 numero = 1
 
 def alteraNumero():
-    #escopo LOCAL
-    #global numero
+    #LOCAL
+    global numero
     numero = 3
+    #FALECEU!!!
 
 numero = 2
 alteraNumero()
